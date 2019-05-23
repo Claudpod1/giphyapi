@@ -10,6 +10,7 @@ var queryURL = "https://api.giphy.com/v1/gifs/random"
 
       // rendering one button for each outdoor activity in the topic array 
 function renderButtons() {
+    $("#outdoor-buttons").empty();
 
     topics.forEach(function(topic) {
         // creating button
@@ -23,6 +24,16 @@ function renderButtons() {
     });
 
 }
+
+$("#add-outdoor").on("click", function(event) {
+    event.preventDefault();
+    
+     
+    var outdoorAct = $("#outdoor-input").val().trim();
+    topics.push(outdoorAct);
+    renderButtons();
+    $("#outdoor-input").val("");
+});
 
 /// ~CALL THE FUNCTIONS~///
 renderButtons();
