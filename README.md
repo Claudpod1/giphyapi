@@ -14,6 +14,6 @@ Instructions:
 5. Under every gif, display its rating (PG,G, so on).
   - The data is provided bt the GIPHY API. 
 6. Add a form to your page that takes a value from a user input box and adds it to your topics array. Then make a function call that takes each topic in the array and remakes the buttons on the page. 
-7. Depliy your assignments to Github pages. 
+7. Deploy your assignments to Github pages. 
 
 
