@@ -5,8 +5,33 @@ input {
     margin: 10px;
     }
 
+.jumbotron {
+    background-image: url(outdoorlife.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    background-color: #ffd449;
+    color: #334195
+}
+
+#outdoor-buttons {
+    background-color: #f9A620
+}
+
+button {
+    background-color: #ffd449;
+    color:#334195
+}
+
 
 body {
-    background-color: honeydew;
+    background-color: #a8d5e2;
+    color: #334195;
+    font-family: 'Chilanka', cursive;
 
+}
+
+#add-outdoor {
+    background-color: #ffd449;
+    color: #334195
 }
